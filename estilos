@@ -6,12 +6,11 @@
 
 body{
     font-family:'Poppins', sans-serif;
-    background:#111;
+    background:#081120;
     color:white;
-    line-height:1.7;
 }
 
-header{
+.hero{
     height:100vh;
     background:url('https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1600');
     background-size:cover;
@@ -31,34 +30,40 @@ header{
     background:rgba(0,0,0,0.6);
 }
 
-.contenido-header{
+.contenido{
     position:relative;
     z-index:2;
     max-width:800px;
 }
 
-.contenido-header h1{
-    font-size:70px;
-    color:#d4af37;
+.contenido h1{
+    font-size:75px;
+    color:#ffd700;
 }
 
-.contenido-header p{
-    margin:20px 0;
-    font-size:22px;
+.contenido p{
+    margin-top:20px;
+    font-size:24px;
 }
 
-.boton{
+.btn{
     display:inline-block;
+    margin-top:30px;
+    background:#ffd700;
+    color:#001f54;
     padding:15px 35px;
-    background:#d4af37;
-    color:black;
+    border-radius:12px;
     text-decoration:none;
-    border-radius:10px;
     font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
 }
 
 nav{
-    background:black;
+    background:#001f54;
     padding:20px;
     text-align:center;
     position:sticky;
@@ -67,9 +72,10 @@ nav{
 }
 
 nav a{
-    color:#d4af37;
-    margin:15px;
+    color:#ffd700;
     text-decoration:none;
+    margin:20px;
+    font-size:18px;
     font-weight:bold;
     transition:0.3s;
 }
@@ -79,30 +85,37 @@ nav a:hover{
 }
 
 section{
-    padding:90px 10%;
+    padding:100px 10%;
 }
 
 h2{
-    color:#d4af37;
+    color:#ffd700;
+    font-size:45px;
     margin-bottom:30px;
-    font-size:40px;
 }
 
-p{
-    margin-bottom:20px;
+.card{
+    background:#12233d;
+    padding:35px;
+    border-radius:20px;
+    margin-bottom:30px;
+}
+
+.card p{
+    line-height:1.8;
     font-size:18px;
 }
 
 .galeria{
     display:flex;
-    gap:20px;
     flex-wrap:wrap;
     justify-content:center;
+    gap:20px;
 }
 
 .galeria img{
     width:320px;
-    border-radius:15px;
+    border-radius:20px;
     transition:0.4s;
 }
 
@@ -110,15 +123,8 @@ p{
     transform:scale(1.05);
 }
 
-.card{
-    background:#222;
-    padding:30px;
-    margin-bottom:25px;
-    border-radius:15px;
-}
-
 footer{
-    background:black;
+    background:#00122e;
     text-align:center;
     padding:30px;
     color:#aaa;
@@ -126,8 +132,8 @@ footer{
 
 @media(max-width:768px){
 
-    .contenido-header h1{
-        font-size:40px;
+    .contenido h1{
+        font-size:45px;
     }
 
     nav a{
