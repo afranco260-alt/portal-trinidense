@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -9,24 +11,27 @@
 <link rel="stylesheet" href="estilos.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-<header>
+<header class="hero">
 
     <div class="overlay"></div>
 
-    <div class="contenido-header">
+    <div class="contenido">
+
         <h1>Club Sportivo Trinidense</h1>
 
         <p>
-            Pasión, barrio y tradición futbolera en el corazón de Santísima Trinidad.
+            Pasión, historia y orgullo del barrio Santísima Trinidad.
         </p>
 
-        <a href="#historia" class="boton">
-            Conocer más
+        <a href="#historia" class="btn">
+            Descubrir más
         </a>
+
     </div>
 
 </header>
@@ -37,7 +42,7 @@
 
     <a href="#barrio">Barrio</a>
 
-    <a href="#imagenes">Imágenes</a>
+    <a href="#imagenes">Galería</a>
 
     <a href="#resultados">Resultados</a>
 
@@ -49,41 +54,42 @@
 
     <h2>Historia del Club</h2>
 
-    <p>
-        El Club Sportivo Trinidense nació como una expresión auténtica del
-        barrio Santísima Trinidad, convirtiéndose con el paso del tiempo
-        en una institución representativa del fútbol paraguayo.
-    </p>
+    <div class="card">
 
-    <p>
-        Más que un club, Trinidense representa identidad, pertenencia y
-        sentimiento popular. Sus colores acompañan generaciones de hinchas
-        que viven cada partido con intensidad y orgullo.
-    </p>
+        <p>
+            El Club Sportivo Trinidense representa la identidad futbolera
+            del barrio Santísima Trinidad y forma parte de la tradición
+            deportiva paraguaya.
+        </p>
+
+        <p>
+            Su crecimiento institucional y deportivo convirtió al club
+            en uno de los símbolos de esfuerzo, pasión y pertenencia
+            para miles de hinchas.
+        </p>
+
+    </div>
 
 </section>
 
 <section id="barrio">
 
-    <h2>El Barrio Santísima Trinidad</h2>
+    <h2>El Barrio</h2>
 
-    <p>
-        El barrio Santísima Trinidad es uno de los sectores históricos
-        de Asunción, caracterizado por su tradición futbolera y su fuerte
-        sentido comunitario.
-    </p>
+    <div class="card">
 
-    <p>
-        Las calles cercanas al estadio se llenan de vida en cada jornada,
-        donde familias, amigos e hinchas convierten el día de partido
-        en una verdadera fiesta deportiva.
-    </p>
+        <p>
+            Santísima Trinidad es un barrio histórico de Asunción donde
+            el fútbol se vive con intensidad en cada jornada deportiva.
+        </p>
+
+    </div>
 
 </section>
 
 <section id="imagenes">
 
-    <h2>Galería del Club</h2>
+    <h2>Galería</h2>
 
     <div class="galeria">
 
@@ -99,21 +105,16 @@
 
 <section id="resultados">
 
-    <h2>Últimos Resultados</h2>
+    <h2>Resultados</h2>
 
     <div class="card">
         <h3>Trinidense 2 - 1 Olimpia</h3>
-        <p>
-            Una victoria emocionante ante su gente en una noche inolvidable.
-        </p>
+        <p>Gran victoria en condición de local.</p>
     </div>
 
     <div class="card">
         <h3>Cerro Porteño 1 - 1 Trinidense</h3>
-
-        <p>
-            Un empate luchado que reflejó el carácter competitivo del equipo.
-        </p>
+        <p>Empate importante fuera de casa.</p>
     </div>
 
 </section>
@@ -122,23 +123,21 @@
 
     <h2>Día de Cancha</h2>
 
-    <p>
-        Cada encuentro en el estadio representa mucho más que fútbol.
-        Es el momento donde los hinchas se reencuentran, cantan,
-        comparten emociones y acompañan al club desde las tribunas.
-    </p>
+    <div class="card">
 
-    <p>
-        El ambiente, los colores y la energía del barrio convierten cada
-        partido en una experiencia única para la familia trinidense.
-    </p>
+        <p>
+            Cada partido representa una fiesta para la familia trinidense,
+            donde el barrio, la pasión y la camiseta se unen.
+        </p>
+
+    </div>
 
 </section>
 
 <footer>
 
     <p>
-        Portal Oficial del Club Sportivo Trinidense - 2026
+        Portal Oficial Sportivo Trinidense © 2026
     </p>
 
 </footer>
